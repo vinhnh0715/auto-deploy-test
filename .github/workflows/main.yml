@@ -22,7 +22,7 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
-        port: 22
+        port: 2222
         timeout: 120s
         script: |
           cd /home/vktrng/auto-deploy-test
