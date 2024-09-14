@@ -26,5 +26,5 @@ jobs:
         timeout: 120s
         script: |
           cd /home/vktrng/deployment
-          git pull origin main
+          git pull https://github.com/vinhnh0715/auto-deploy-test/
           pwd
