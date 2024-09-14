@@ -23,8 +23,8 @@ jobs:
         password: ${{ secrets.PASSWORD }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 2222
-        timeout: 120s
+        timeout: 60s
         script: |
-          cd /home/vktrng/deployment
+          cd /home/vktrng/deployment/
           git pull https://github.com/vinhnh0715/auto-deploy-test/
           pwd
