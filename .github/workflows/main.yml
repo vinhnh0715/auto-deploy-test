@@ -26,4 +26,4 @@ jobs:
         script: |
           cd /home/vktrng/deployment
           git pull origin main
-          docker compose up
+          sudo docker compose up
