@@ -27,4 +27,4 @@ jobs:
         script: |
           cd /home/vktrng/deployment
           git pull origin main
-          docker compose up
+          pwd
