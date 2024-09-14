@@ -20,10 +20,11 @@ jobs:
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
+        password: ${{ secrets.PASSWORD }}
         key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: 2222
         timeout: 120s
         script: |
           cd /home/vktrng/deployment
           git pull origin main
-          sudo docker compose up
+          docker compose up
