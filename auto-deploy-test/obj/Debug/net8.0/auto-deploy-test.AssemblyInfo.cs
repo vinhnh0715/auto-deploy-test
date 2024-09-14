@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("auto-deploy-test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c60201359b87d833e7dba4b08fce560351abd608")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+353e9f67653d2a90d76de468a8b1775f2ae3a04e")]
 [assembly: System.Reflection.AssemblyProductAttribute("auto-deploy-test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("auto-deploy-test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

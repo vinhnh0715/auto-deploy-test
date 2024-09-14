@@ -1,0 +1,6 @@
+services:
+  auto-deploy-test:
+    image: ${DOCKER_REGISTRY-}autodeploytest
+    build:
+      context: .
+      dockerfile: auto-deploy-test/Dockerfile
